@@ -2,7 +2,7 @@
 
 1. Get predicted results of evaluated models and corresponding golden annotations. 
 
-You can follow a unified event extraction training and testing framework [TextEE](https://github.com/ej0cl6/TextEE), applying its default settings to get these results and annotations. We provide these results and annotations in `test_data.tar` of this repository.
+You can follow a unified event extraction training and testing framework [TextEE](https://github.com/ej0cl6/TextEE), applying its default settings to get these results and annotations. We provide these results and annotations in `test_data.tar` of [this huggingface repository](https://huggingface.co/datasets/Ralston/RAEE_reproduction_data/tree/main).
 
 2. Generate reassessment data:
 
@@ -16,7 +16,7 @@ You can follow a unified event extraction training and testing framework [TextEE
 . scripts/llm.sh
 ```
 
-We provide the reassessing results in `gpt-4o-2024-05-13.tar` of this repository.
+We provide the reassessing results in `gpt-4o-2024-05-13.tar` of [this huggingface repository](https://huggingface.co/datasets/Ralston/RAEE_reproduction_data/tree/main).
 
 4. Reassess according to the evaluation results from LLMs:
 
@@ -32,7 +32,7 @@ RAEE can be easily applied to semantically evaluate other models in other datase
 
 1. Format model's predictions and golden annotations. 
 
-We follow the data format of [TextEE](https://github.com/ej0cl6/TextEE). You can find this format in [TextEE](https://github.com/ej0cl6/TextEE) or in our `test_data.tar` file. The ideal file tree would be:
+We follow the data format of [TextEE](https://github.com/ej0cl6/TextEE). You can find this format in [TextEE](https://github.com/ej0cl6/TextEE) or in `test_data.tar` file of [this huggingface repository](https://huggingface.co/datasets/Ralston/RAEE_reproduction_data/tree/main). The ideal file tree would be:
 
 ```
 test_data/
