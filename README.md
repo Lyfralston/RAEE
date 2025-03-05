@@ -1,3 +1,5 @@
+This is the repository for the paper [**Beyond Exact Match: Semantically Reassessing Event Extraction by Large Language Models**](https://arxiv.org/abs/2410.09418).
+
 ### Reproduction of Reassessment Experiments in the Paper
 
 1. Get predicted results of evaluated models and corresponding golden annotations. 
